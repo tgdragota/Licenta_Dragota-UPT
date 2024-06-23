@@ -1,0 +1,120 @@
+.title-page {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #2d3192;
+    font-size: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-toggle-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.form-toggle-button.active {
+    background-color: #2d3192;
+    color: white;
+}
+
+.upload-container {
+    width: 58%;
+    margin: 9vh auto;
+    padding: 20px;
+    border: 2px solid #2d3192;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.upload-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.upload-instructions {
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.upload-form:hover {
+    border-color: #2d3192;
+}
+
+.drag-drop-text {
+    color: #666;
+    text-align: center;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #2d3192;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #1e2369;
+}
+
+.uploaded-files {
+    margin-top: 20px;
+}
+
+.uploaded-files h3 {
+    margin-bottom: 10px;
+}
+
+.uploaded-files ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.uploaded-files li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.uploaded-files li button {
+    background-color: #2d3192;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.uploaded-files li button:hover {
+    background-color: #3136cb;
+}
+
+.text-info {
+    color: black;
+}
+
+.submit-time {
+    font-size: 0.9em;
+    color: #555;
+}

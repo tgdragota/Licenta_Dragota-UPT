@@ -1,0 +1,34 @@
+.sidebar {
+    background-color: #2d3192 !important;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sidenav---sidenav-subnav---1EN61 > .sidenav---sidenav-subnavitem---1cD47.sidenav---selected---1EK3y > .sidenav---navitem---9uL5T {
+    color: #2d3192;
+    font-weight: bold;
+    background: none;
+    cursor: default;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    float: left;
+    height: 50px;
+    background: none;
+    border: none;
+    color: #BCA9C7;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: -6px;
+    text-align: center;
+    width: 100%;
+}
+
+.logout-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}

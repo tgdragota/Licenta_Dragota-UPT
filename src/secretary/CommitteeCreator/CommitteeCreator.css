@@ -1,0 +1,96 @@
+.creare-comisie-container {
+    margin: 40px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.creare-comisie-container h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #2d3192;
+    font-size: 24px;
+}
+
+.creare-comisie-container table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.creare-comisie-container th,
+.creare-comisie-container td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.creare-comisie-container th {
+    text-align: center;
+}
+
+.creare-comisie-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.creare-comisie-container button {
+    padding: 10px 20px;
+    background-color: #2d3192;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.creare-comisie-container button:hover {
+    background-color: #1e2369;
+}
+
+.titlu-tabel {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #2d3192;
+    font-size: 24px;
+}
+
+.input-field,
+.textarea-field {
+    width: 55%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.textarea-field:focus {
+    outline: none;
+    border: 3px solid #2d3192;
+}
+
+.action {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.action button {
+    padding: 8px 16px;
+    background-color: #2d3192;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #1e2369;
+}
+
+.action button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

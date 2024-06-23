@@ -1,0 +1,109 @@
+.title-page {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #2d3192;
+    font-size: 24px;
+}
+
+.uploadSettings-container {
+    margin: 40px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.secretary-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.secretary-form {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.textarea-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.textarea-input:focus {
+    outline: none;
+    border: 2px solid #2d3192;
+}
+
+.date-time-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.date-time-input:focus {
+    outline: none;
+    border: 2px solid #2d3192;
+}
+
+.checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: #2d3192;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 11%;
+}
+
+.submit-button:hover {
+    background-color: #1a1b41;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-toggle-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.form-toggle-button.active {
+    background-color: #2d3192;
+    color: white;
+}
+
+.secretary-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
