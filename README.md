@@ -1,3 +1,15 @@
+După ce repo-ul a fost clonat se deschide folder-ul local.
+Se deschide un terminal în root-ul proiectului și se rulează comanda „npm install” pentru a se instala pachetele necesare.
+După ce au fost descărcate pachetele, se rulează comanda „npm start” pentru a porni site-ul web.
+Site-ul va porni și se va dechide în browser-ul implicit.
+
+# Acest proiect este dependent de API-ul dedicat lui. 
+Pentru a-l folosi este necesară urmărirea instrucțiunilor de utilizarea a proiectului realizat de Giurea Laura-Maria. 
+## Link github API: https://github.com/lauragiurea/upt
+
+Dacă serverul va rula pe alt PC față de cel pe care rulează site-ul este necesară schimbarea url-ului din fișierul „src/server.js”, înlocuind „localhost” cu ip-ul necesar.
+Dacă rulează de pe același PC pasul anterior nu este necesar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
